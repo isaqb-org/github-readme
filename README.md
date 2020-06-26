@@ -11,5 +11,5 @@ In case of questions or suggestions, please contact:
 
 ## Release Process for Curricula
 
-![Release process description for a curriculum, including the reasons for when to change which part of the release version](img/release_process.svg?sanitize=1)
+![Release process description for a curriculum, including the reasons for when to change which part of the release version](img/release_process.svg)
 
