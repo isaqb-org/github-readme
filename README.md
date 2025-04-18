@@ -38,3 +38,13 @@ Push it to the repository and a release candidate is created. The URL for the re
 Once everyone is happy with the current release candidate, they need to create a new git tag called `2025.1-rev0` (in our example) and push it to GitHub, wait a few minutes, and then the new release is done. 
 
 **Attention:** Once a new release is created, everything of the last release candidate is removed! 
+
+## Having technical difficulties with a curriculum?
+
+The technical setup of curriculums is split up in multiple sub repositories each focussing on a single task. In order to report a problem and requesting help an issue has to be created for the corresponding sub repository. These are categorized as follows:
+* [Github build process](https://github.com/isaqb-org/github-workflows)
+* [Local build process](https://github.com/isaqb-org/gradle-tools)
+* [HTML styling](https://github.com/isaqb-org/html-theme)
+* [PDF styling](https://github.com/isaqb-org/pdf-theme)
+  
+Be aware that bugs found in these sub repositories are fixed within these before curriculum repositores are updated to use the new versions. Even after an issue is closed it might take a little more time before the curriculum you are working on is also fixed.
